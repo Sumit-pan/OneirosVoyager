@@ -2,6 +2,7 @@
 import { JSX } from 'react';
 import '../styles/about.css'; // Adjust the path as necessary
 import { FileText, Download } from 'lucide-react';
+import AboutImage from "../assets/nav.jpeg";
 
 // Sample resume PDF path - replace with your actual file path when deploying
 const resumePath = "./assets/pdf.pdf"; // Adjust the path as necessary
@@ -47,13 +48,13 @@ export default function About(): JSX.Element {
         <section className="about-section">
           <div className="about-grid">
             <div className="about-image-container">
-              <img src="/api/placeholder/400/400" alt="Profile" className="about-image" />
+              <img src={AboutImage} alt="Profile" className="about-image" />
             </div>
             <div className="about-content">
               <h2 className="section-title">Who I Am</h2>
               <p className="about-text">
                 I'm a passionate full-stack developer with expertise in building modern web applications. 
-                With over 5 years of experience in the industry, I've worked on a variety of projects 
+                With over 2 years of experience, I've worked on a variety of projects 
                 from small business websites to complex enterprise applications.
               </p>
               <p className="about-text">
@@ -63,15 +64,15 @@ export default function About(): JSX.Element {
               <div className="personal-info">
                 <div className="info-item">
                   <span className="info-label">Name:</span>
-                  <span className="info-value">Your Name</span>
+                  <span className="info-value">Sumit Pandey</span>
                 </div>
                 <div className="info-item">
                   <span className="info-label">Email:</span>
-                  <span className="info-value">your.email@example.com</span>
+                  <span className="info-value">pandey.sum123@gmail.com</span>
                 </div>
                 <div className="info-item">
                   <span className="info-label">Location:</span>
-                  <span className="info-value">City, Country</span>
+                  <span className="info-value">Long Beach, California, USA</span>
                 </div>
                 <div className="info-item">
                   <span className="info-label">Availability:</span>
@@ -138,35 +139,23 @@ export default function About(): JSX.Element {
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="time-period">2021 - Present</div>
-                <h3 className="position">Senior Developer</h3>
-                <p className="company">Tech Company, Inc.</p>
+                <div className="time-period">Oct,2022 - June,2026</div>
+                <h3 className="position">Bachelor's Degree in Information Technology</h3>
+                <p className="company">Westcliff University</p>
                 <p className="description">
-                  Leading development of web applications using React, Node.js, and MongoDB.
-                  Mentoring junior developers and implementing best practices.
+                  Cybersecurity, game development, web development, algorithms, and data structures.
                 </p>
               </div>
             </div>
             <div className="timeline-item">
               <div className="timeline-marker"></div>
               <div className="timeline-content">
-                <div className="time-period">2018 - 2021</div>
-                <h3 className="position">Full Stack Developer</h3>
-                <p className="company">Digital Solutions Ltd.</p>
+                <div className="time-period">Feb,2023 - Aug,2023</div>
+                <h3 className="position">Full Stack Developer (Internship)</h3>
+                <p className="company">Sunai Ltd.</p>
                 <p className="description">
                   Developed and maintained multiple client websites and applications.
                   Collaborated with design and marketing teams to deliver complete solutions.
-                </p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-marker"></div>
-              <div className="timeline-content">
-                <div className="time-period">2016 - 2018</div>
-                <h3 className="position">Bachelor's Degree in Computer Science</h3>
-                <p className="company">University Name</p>
-                <p className="description">
-                  Graduated with honors. Focused on web development, algorithms, and data structures.
                 </p>
               </div>
             </div>

@@ -9,61 +9,11 @@ export default function ProjectsPage() {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'Pariwartan',
       category: 'web',
       image: '/api/placeholder/400/300',
-      description: 'A full-featured e-commerce platform built with React, Node.js, and MongoDB. Includes user authentication, product management, shopping cart, and payment processing.',
+      description: 'A community project aimed at developing an education system for students in a rural area. The project leverages basic Node to create an accessible and user-friendly platform, enhancing educational opportunities and resources for the community. The project was aimed to target the issues the students, teachers and the school faced.',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 2,
-      title: 'Task Management App',
-      category: 'app',
-      image: '/api/placeholder/400/300',
-      description: 'A task management application with drag-and-drop interface. Features include task categorization, due dates, and collaboration tools.',
-      technologies: ['Vue.js', 'Firebase', 'Vuex', 'SCSS'],
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      category: 'web',
-      image: '/api/placeholder/400/300',
-      description: 'A weather dashboard that displays current weather conditions and forecasts for multiple locations. Uses OpenWeatherMap API.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'API Integration'],
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 4,
-      title: 'Recipe Finder Mobile App',
-      category: 'app',
-      image: '/api/placeholder/400/300',
-      description: 'A mobile application that helps users find recipes based on ingredients they have. Includes filtering options and favorites functionality.',
-      technologies: ['React Native', 'Redux', 'Firebase'],
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 5,
-      title: 'Company Website Redesign',
-      category: 'design',
-      image: '/api/placeholder/400/300',
-      description: 'Complete redesign of a company website focusing on improved user experience, accessibility, and modern design principles.',
-      technologies: ['Figma', 'HTML5', 'CSS3', 'JavaScript'],
-      demoLink: '#',
-      codeLink: '#'
-    },
-    {
-      id: 6,
-      title: 'Data Visualization Dashboard',
-      category: 'data',
-      image: '/api/placeholder/400/300',
-      description: 'An interactive dashboard for visualizing complex data sets. Features include dynamic charts, filtering, and exportable reports.',
-      technologies: ['React', 'D3.js', 'Node.js', 'PostgreSQL'],
       demoLink: '#',
       codeLink: '#'
     }

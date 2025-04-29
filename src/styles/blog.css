@@ -32,7 +32,7 @@
   }
   
   .blog-post {
-    background: #ffffff;
+    background: #f8fafc;
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -57,3 +57,22 @@
   .read-more:hover {
     text-decoration: underline;
   }
+
+  .section-title {
+    font-size: 2rem;
+    color: #4f46e5;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .center-button {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .post-date {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  

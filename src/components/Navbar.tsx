@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.scss';
+import navImage from "../assets/Oneiros Voyager.svg";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -15,7 +16,7 @@ const Navbar: React.FC = () => {
         <div className="navbar-content">
           <div className="nav">
             <Link to="/" className="logo">
-              <img src="" alt="" />
+              <img src={navImage} alt="" />
             </Link>
           </div>
 

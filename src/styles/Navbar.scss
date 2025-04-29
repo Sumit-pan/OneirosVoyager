@@ -1,6 +1,6 @@
 /* Navigation */
 .navbar {
-    background-color: #ffffff;
+    background-color: #f8fafc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
   
@@ -14,13 +14,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 4rem;
+    height: 7rem;
   }
   
   .logo {
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: #4f46e5;
+    display: flex;
+    justify-content: center;
+    height: 7rem
   }
   
   /* Desktop Navigation */

@@ -1,5 +1,6 @@
 // HomePage.jsx
 import '../styles/Homepage.scss';
+import  profileImage  from "../assets/s.jpeg";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
             <div className="profile-image-container">
               <div className="profile-image-wrapper">
                 <img
-                  src="https://via.placeholder.com/300"
+                  src={profileImage}
                   alt="Profile"
                   className="profile-image"
                 />
